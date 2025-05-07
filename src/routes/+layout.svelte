@@ -24,41 +24,43 @@
 				</svg>
 			</div>
 			<ul class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-				<li><a class="link link-hover" href="">Skills</a></li>
-				<li><a class="link link-hover" href="">Education</a></li>
-				<li><a class="link link-hover" href="">Career</a></li>
+				<li><a class="link link-hover" href="#skills">Skills</a></li>
+				<li><a class="link link-hover" href="#education">Education</a></li>
+				<li><a class="link link-hover" href="#career">Career</a></li>
 			</ul>
 		</div>
-		<a class="btn btn-ghost navbar-center hidden text-xl lg:inline">Thibault</a>
+		<a class="btn btn-ghost navbar-center hidden text-xl lg:inline" href="#">Thibault</a>
 	</div>
-	<a class="btn btn-ghost text-xl lg:hidden">Thibault</a>
+	<a class="btn btn-ghost text-xl lg:hidden" href="#">Thibault</a>
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
-			<li><a class="link link-hover" href="">Skills</a></li>
-			<li><a class="link link-hover" href="">Education</a></li>
-			<li><a class="link link-hover" href="">Career</a></li>
+			<li><a href="#skills" class="link link-hover">Skills</a></li>
+			<li><a href="#education" class="link link-hover">Education</a></li>
+			<li><a href="#career" class="link link-hover">Career</a></li>
 		</ul>
 	</div>
 	<div class="navbar-end">
-		<a class="btn btn-primary">Hire Me</a>
+		<a href="#contact" class="btn btn-primary">Hire Me</a>
 	</div>
 </div>
-{@render children()}
+<div class="flex flex-col w-full">
+    {@render children()}
+</div>
 <footer class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
     <aside>
         <img class="h-50" src="pachy.png" alt="">
     </aside>
 	<nav>
 		<h6 class="footer-title">Content</h6>
-		<a class="link link-hover" href="">Skills</a>
-		<a class="link link-hover" href="">Education</a>
-		<a class="link link-hover" href="">Career</a>
+		<a class="link link-hover" href="#skills">Skills</a>
+		<a class="link link-hover" href="#education">Education</a>
+		<a class="link link-hover" href="#career">Career</a>
 	</nav>
 	<nav>
 		<h6 class="footer-title">Legal</h6>
-		<a class="link link-hover">Terms of use</a>
-		<a class="link link-hover">Privacy policy</a>
-		<a class="link link-hover">Cookie policy</a>
+		<a class="link link-hover" href="#">Terms of use</a>
+		<a class="link link-hover" href="#">Privacy policy</a>
+		<a class="link link-hover" href="#">Cookie policy</a>
 	</nav>
     <nav>
         <h6 class="footer-title">Social</h6>
