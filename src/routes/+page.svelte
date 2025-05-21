@@ -11,20 +11,20 @@
     <div>Career</div>
 </section>
 <section id="contact" class="px-auto text-center flex flex-col items-center">
-    <div>Contact me</div>
-    <div class="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl items-center">
-        <label class="floating-label items-center w-full mt-4">
-            <input type="text" placeholder="Email" class="input input-md" />
+    <div class="card py-8 w-full bg-base-100 max-w-lg shrink-0 shadow-2xl/200 items-center">
+        <div class="text-5xl font-bold pb-4">Contact me</div>
+        <label class="floating-label items-center w-96 mt-4">
+            <input type="text" placeholder="Email" class="input input-md w-96" />
             <span>Email</span>
         </label>
-        <label class="floating-label items-center w-full mt-4">
-            <input type="text" placeholder="Subject" class="input input-md" />
+        <label class="floating-label items-center w-96 mt-4">
+            <input type="text" placeholder="Subject" class="input input-md w-96" />
             <span>Subject</span>
         </label>
-        <label class="floating-label items-center w-full mt-4">
-            <input type="textarea" placeholder="Message" class="input input-md" />
+        <label class="floating-label items-center w-96 mt-4">
+            <textarea placeholder="Message" class="textarea w-96" rows="4"></textarea>
             <span>Message</span>
         </label>
-        <button class="btn btn-neutral mt-4 w-3/4">Login</button>
+        <button class="btn btn-neutral px-8 mt-8">Send</button>
     </div>
 </section>

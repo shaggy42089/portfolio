@@ -4,7 +4,7 @@
 	let { children } = $props();
 </script>
 
-<div class="navbar bg-base-100 shadow-sm">
+<div class="navbar bg-base-100 shadow-sm absolute">
 	<div class="navbar-start">
 		<div class="dropdown">
 			<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -43,7 +43,7 @@
 		<a href="#contact" class="btn btn-primary">Hire Me</a>
 	</div>
 </div>
-<div class="flex flex-col w-full">
+<div class="flex flex-col w-full min-h-screen justify-center">
     {@render children()}
 </div>
 <footer class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
